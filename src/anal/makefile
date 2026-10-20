@@ -2,7 +2,7 @@
 LEXLIB =
 
 INCLUDE=../includes
-CFLAGS= -O2 -I${INCLUDE} -Wall -Wextra -Wno-missing-braces
+CFLAGS= -O2 -I${INCLUDE} -Wall -Wextra -Wno-missing-braces --std=gnu17
 RM=rm
 CC=cc
 CC=gcc

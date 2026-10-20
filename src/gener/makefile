@@ -11,7 +11,7 @@ GENEROBJ= genwd.o
 CC=cc
 CC=gcc
 #CFLAGS= -O -I${INCLUDE}   -g
-CFLAGS= -O2 -I${INCLUDE} -Wall -Wextra -Wno-missing-braces
+CFLAGS= -O2 -I${INCLUDE} -Wall -Wextra -Wno-missing-braces --std=gnu17
 LINTFLAGS= -I${INCLUDE} -DDEBUG
 RM=/bin/rm
 CONJOBJ= conjmain.o conjsys.o combconj.o ppasstype.o
